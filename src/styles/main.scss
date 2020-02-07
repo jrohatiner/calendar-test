@@ -1,0 +1,34 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat:600";
+@import "https://use.fontawesome.com/releases/v5.2.0/css/all.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font: normal 1em 'Roboto', sans-serif;
+  padding: 15px;
+  background: linear-gradient(
+                  to right top,
+                  #5c149e,
+                  #5c149e,
+                  #9035e3,
+                  #761cca,
+                  #a862eb
+  )
+  no-repeat;
+  background-attachment: fixed;
+}
+button {
+  background: none;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
