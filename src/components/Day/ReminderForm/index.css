@@ -1,0 +1,75 @@
+form textarea,
+form .rc-time-picker-input {
+  font-family: inherit;
+  width: 100%;
+  /*background: rgba(0, 0, 0, 0.2);*/
+  background: transparent;
+  border-top: 0;
+  border-left: 0;
+  border-radius: 0;
+  padding: 3px 5px;
+  margin: 0;
+  outline: 0;
+
+}
+  form textarea, form textarea::placeholder,
+  form .rc-time-picker-input,
+  form .rc-time-picker-input::placeholder {
+    color: #fff; }
+  form .rc-time-picker-input {
+      margin-bottom: 4px;
+      text-decoration: underline;
+  }
+
+form textarea {
+  font-family: inherit; }
+
+form .color-picker {
+  display: block;
+  margin-top: 3px;margin-left: 8px;
+}
+
+form .btn-submit,
+form .btn-cancel {
+  font-family: inherit;
+  font-size: 13px;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-left: 9px;
+  margin-bottom: 3px;
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border-radius: 3px;
+}
+
+form .btn-submit:hover,
+form .btn-cancel:hover {
+    background-color: #e37306;
+    border-radius: 3px;
+    opacity: .7;
+}
+.rc-time-picker-panel {
+  font-family: inherit; }
+form {
+    background: transparent;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 4px 2px, rgba(0, 0, 0, 0.07) 0px 12px 6px -1px, rgba(0, 0, 0, 0.17) 0px 9px 17px 2px;
+}
+.rc-time-picker-clear-icon:after {
+    color: white;
+    font-size: 18px;
+    border-radius: 50%;
+    background-color: #0003;
+}
+textarea.description,
+.rc-time-picker-input,
+.btn-submit {
+    border: none;
+}
+.btn-cancel {
+    border: none;
+}
+i.rc-time-picker-clear-icon {
+    background-color: #dc7b30;
+    opacity: .9;
+    border-radius: 50%;
+}

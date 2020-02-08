@@ -1,0 +1,26 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat:600";
+@import "https://use.fontawesome.com/releases/v5.2.0/css/all.css";
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+body {
+  font: normal 1em 'Roboto', sans-serif;
+  padding: 15px;
+    background: -moz-linear-gradient(-45deg, rgba(255,165,165,0.91) 0%, rgba(255,165,165,0.91) 3%, rgba(254,169,133,0.9) 26%, rgba(255,147,147,0.89) 48%, rgba(254,169,133,0.89) 73%, rgba(252,185,159,0.88) 89%, rgba(255,197,158,0.88) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(255,165,165,0.91) 0%,rgba(255,165,165,0.91) 3%,rgba(254,169,133,0.9) 26%,rgba(255,147,147,0.89) 48%,rgba(254,169,133,0.89) 73%,rgba(252,185,159,0.88) 89%,rgba(255,197,158,0.88) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(255,165,165,0.91) 0%,rgba(255,165,165,0.91) 3%,rgba(254,169,133,0.9) 26%,rgba(255,147,147,0.89) 48%,rgba(254,169,133,0.89) 73%,rgba(252,185,159,0.88) 89%,rgba(255,197,158,0.88) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8ffa5a5', endColorstr='#e0ffc59e',GradientType=1 );
+    display: flex;
+}
+
+button {
+  background: none;
+  border: 0;
+  outline: 0;
+  cursor: pointer; }
