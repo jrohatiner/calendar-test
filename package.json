@@ -11,7 +11,7 @@
     "@testing-library/user-event": "^7.1.2",
     "babel-jest": "^25.1.0",
     "gh-pages": "^2.2.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "moment": "^2.24.0",
     "rc-color-picker": "^1.2.6",
     "rc-time-picker": "^3.7.3",
